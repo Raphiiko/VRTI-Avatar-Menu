@@ -2,6 +2,9 @@ name: Build Release
 
 on: 
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
 
@@ -85,3 +88,11 @@ jobs:
             ${{ env.unityPackage }}
             ${{ env.packagePath }}/package.json
           tag_name: ${{ env.version }}
+      
+      # Trigger an update to the Package Listing Repository
+      - name: Trigger Listing Update
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.LISTING_PAT }}
+          repository: Raphiiko/VPM-Packages
+          event-type: package-update

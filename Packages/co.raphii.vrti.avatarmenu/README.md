@@ -1,0 +1,1 @@
+# co.raphii.vrti.avatarmenu by info

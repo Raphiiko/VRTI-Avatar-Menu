@@ -1,1 +1,19 @@
-{"dependencies": {}, "locked": {}}
+{
+  "dependencies": {
+    "nadena.dev.modular-avatar": {
+      "version": "1.15.1"
+    }
+  },
+  "locked": {
+    "nadena.dev.ndmf": {
+      "version": "1.10.1",
+      "dependencies": {}
+    },
+    "nadena.dev.modular-avatar": {
+      "version": "1.15.1",
+      "dependencies": {
+        "nadena.dev.ndmf": ">=1.10.0 <2.0.0-a"
+      }
+    }
+  }
+}
