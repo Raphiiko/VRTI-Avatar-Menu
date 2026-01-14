@@ -391,7 +391,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 3
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 0
@@ -401,7 +401,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 2
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 0
@@ -411,7 +411,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 3
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 0
@@ -421,7 +421,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 3
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 0
@@ -431,7 +431,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 3
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 0
@@ -441,7 +441,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 2
-    localOnly: 0
+    localOnly: 1
     defaultValue: 1
     saved: 0
     hasExplicitDefaultValue: 0
@@ -451,7 +451,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 3
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 0
@@ -461,7 +461,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 3
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 0
@@ -471,7 +471,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 3
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 0
@@ -481,7 +481,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 3
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 0
@@ -491,7 +491,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 3
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 0
@@ -501,7 +501,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 3
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 0
@@ -511,7 +511,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 3
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 0
@@ -521,7 +521,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 3
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 0

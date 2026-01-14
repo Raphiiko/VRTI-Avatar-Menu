@@ -14,6 +14,16 @@
       "dependencies": {
         "nadena.dev.ndmf": ">=1.10.0 <2.0.0-a"
       }
+    },
+    "com.vrchat.avatars": {
+      "version": "3.10.1",
+      "dependencies": {
+        "com.vrchat.base": "3.10.1"
+      }
+    },
+    "com.vrchat.base": {
+      "version": "3.10.1",
+      "dependencies": {}
     }
   }
 }
