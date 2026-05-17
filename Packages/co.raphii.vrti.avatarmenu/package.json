@@ -1,12 +1,12 @@
 {
   "name": "co.raphii.vrti.avatarmenu",
   "displayName": "VRTI Avatar Menu",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An avatar menu prefab for VRTI (VR Treadmill Interface).\nIt allows you to control your bluetooth treadmill right from your VRChat avatar's menu!",
   "gitDependencies": {},
   "vpmDependencies": {
-    "com.vrchat.avatars": "3.10.1",
-    "nadena.dev.modular-avatar": "1.15.1"
+    "com.vrchat.avatars": "3.x.x",
+    "nadena.dev.modular-avatar": "1.x.x"
   },
   "author": {
     "name": "Raphiiko",
