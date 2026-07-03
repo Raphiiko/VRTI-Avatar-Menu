@@ -1,0 +1,23 @@
+name: Trigger Package Listing Update
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  trigger-listing-update:
+    name: Trigger VPM package listing rebuild
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger listing update
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.LISTING_PAT }}
+          repository: Raphiiko/VPM-Packages
+          event-type: package-update
+          client-payload: '{"source_repository":"${{ github.repository }}","source_ref":"${{ github.ref }}","source_sha":"${{ github.sha }}"}'
